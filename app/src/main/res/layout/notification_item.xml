@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:layout_margin="8dp"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:text="Title"
+        android:drawablePadding="10dp"
+        android:textSize="17sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:drawableStartCompat="@drawable/ic_bell_" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textColor="@android:color/black"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="Content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="end|center"
+        android:text="Time"
+        android:textColor="@android:color/darker_gray"
+        android:textStyle="italic"
+        android:drawablePadding="5dp"
+        app:drawableLeftCompat="@drawable/black_dot"
+        app:drawableRightCompat="@drawable/black_dot" />
+
+</LinearLayout>

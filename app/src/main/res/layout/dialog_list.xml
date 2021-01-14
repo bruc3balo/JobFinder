@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="350dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/specializationDialogField"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/search_bg"
+            android:backgroundTint="@color/semiGray"
+            android:gravity="center_vertical"
+            android:hint="Type you speciality here"
+            android:overScrollMode="ifContentScrolls"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/white" />
+
+        <ImageButton
+            android:id="@+id/addSpecializationDialogButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/search_bg"
+            android:src="@android:drawable/ic_menu_add"
+            android:tint="@android:color/holo_red_dark" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/specializationDialogRv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:isScrollContainer="true"
+        android:padding="15dp" />
+
+
+    <Button
+        android:id="@+id/saveSpecializationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Save"
+        android:background="@drawable/search_bg"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:backgroundTint="@color/semiBlack"/>
+
+</LinearLayout>

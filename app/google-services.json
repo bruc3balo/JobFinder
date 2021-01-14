@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "265126768379",
+    "project_id": "jobwalker-63877",
+    "storage_bucket": "jobwalker-63877.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265126768379:android:57459ff9625d6589fbca5e",
+        "android_client_info": {
+          "package_name": "com.example.jobfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265126768379-k4ma4369nc1qikhmfbg9if1d8oofets5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKd3jUeYjaoEU6vaJL3hZP5BPbdvU1bbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265126768379-k4ma4369nc1qikhmfbg9if1d8oofets5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragments.profile.ChangeLocationActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        app:navigationIcon="@drawable/left"
+        app:subtitle="Change your location"
+        app:title="Where do you reside?"
+        android:id="@+id/changeLocationToolbar"
+        app:titleTextColor="@android:color/darker_gray" />
+
+
+    <fragment xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/activityMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_gravity="center" />
+
+
+    <EditText
+        android:id="@+id/activityLocationTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="Location"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textColorHint="@android:color/darker_gray"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/saveLocationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/search_bg"
+        android:backgroundTint="@color/semiBlack"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>
